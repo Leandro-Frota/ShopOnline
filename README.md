@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ E-commerce com Next.js | Fake Store API
 
-## Getting Started
+Projeto desenvolvido como parte de um **treinamento prático em Next.js**, com o objetivo de construir uma aplicação de loja virtual consumindo dados da [Fake Store API](https://fakestoreapi.com/).
 
-First, run the development server:
+Essa aplicação simula a experiência de navegação em um e-commerce, com foco em **componentização, roteamento dinâmico, consumo de API externa e renderização eficiente**.
 
-```bash
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js**
+- **React.js**
+- **JavaScript (ES6+)**
+- **Fake Store API**
+- **CSS Modules** ou **Styled Components**
+- **Axios**
+
+---
+
+## 📌 Funcionalidades
+
+- ✅ Listagem dinâmica de produtos
+- ✅ Página de detalhes do produto via rota dinâmica (`/produto/[id]`)
+- ✅ Simulação de carrinho de compras
+- ✅ Consumo de API externa com fetch
+- ✅ Responsividade e usabilidade
+
+---
+
+## Instale as dependências
+
+npm install
+# ou
+yarn install
+
+---
+
+## Inicie o servidor
 npm run dev
-# or
+ ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧪 API Utilizada
+- Fake Store API: https://fakestoreapi.com/
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Dados fictícios de produtos, incluindo imagens, preços, categorias e descrições.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📍 Status
+🚧 Projeto em desenvolvimento – melhorias em andamento, como:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-  Filtro por categoria
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-  Carrinho com persistência local
 
-## Deploy on Vercel
+- Tela de checkout (simulada)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Autor
+Desenvolvido por Leandro Frota
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
